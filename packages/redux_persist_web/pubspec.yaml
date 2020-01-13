@@ -8,7 +8,9 @@ environment:
   sdk: ">=1.24.0 <3.0.0"
 
 dependencies:
-  redux_persist: "^0.8.2"
+  redux_persist:
+    git:
+      url: https://github.com/flutterone/redux_persist.git
 
 # Used for development
 #dependency_overrides:
